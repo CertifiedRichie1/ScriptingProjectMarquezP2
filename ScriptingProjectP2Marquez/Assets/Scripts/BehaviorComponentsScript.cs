@@ -24,9 +24,12 @@ public class BehaviorComponentsScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.B))
         {
             GetComponent<Renderer>().material.color = Color.blue;
-
         }
-
-
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            GetComponent<Renderer>().material.color = Color.yellow;
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+            GetComponent<Renderer>().material.color = Color.cyan;
     }
 }
